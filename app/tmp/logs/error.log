@@ -1,0 +1,27 @@
+2013-09-26 16:03:24 Error: [MissingControllerException] Controller class ControlaKMController could not be found.
+Exception Attributes: array (
+  'class' => 'ControlaKMController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/controlaKM/
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 16:03:27 Error: [MissingControllerException] Controller class ControlaKMController could not be found.
+Exception Attributes: array (
+  'class' => 'ControlaKMController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/controlaKM/
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 16:03:29 Error: [MissingControllerException] Controller class ControlaKMController could not be found.
+Exception Attributes: array (
+  'class' => 'ControlaKMController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/controlaKM/
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
