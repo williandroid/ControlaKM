@@ -41,6 +41,9 @@ $cakeDescription = __d('Controla KM', 'Controla KM');
 	<div id="container">
 		<div id="header">
 			<h1>Controla KM - Rivelli</h1>
+			<?php echo $this->Html->link('Funcionários', '/Funcionarios'); ?>
+                        <?php echo $this->Html->link('Veículos', '/Veiculos'); ?>
+                        <?php echo $this->Html->link('Tanques', '/Tanques'); ?>
 		</div>
 		<div id="content">
 
@@ -57,6 +60,6 @@ $cakeDescription = __d('Controla KM', 'Controla KM');
 			?>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php // echo $this->element('sql_dump'); ?>
 </body>
 </html>

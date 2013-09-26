@@ -1060,3 +1060,138 @@ Stack Trace:
 #8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
 #9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2013-09-26 23:08:30 Error: [MissingActionException] Action VeiculosController::Funcionario() could not be found.
+Exception Attributes: array (
+  'controller' => 'VeiculosController',
+  'action' => 'Funcionario',
+)
+Request URL: /ControlaKM/Veiculos/Funcionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-26 23:11:35 Error: [MissingActionException] Action VeiculosController::Funcionarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'VeiculosController',
+  'action' => 'Funcionarios',
+)
+Request URL: /ControlaKM/Veiculos/Funcionarios/index
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-26 23:24:11 Error: [MissingControllerException] Controller class FucionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FucionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Fucionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:24:25 Error: [MissingControllerException] Controller class FucionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FucionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Fucionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:24:35 Error: [MissingControllerException] Controller class FucionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FucionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Fucionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:24:38 Error: [MissingControllerException] Controller class FucionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FucionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Fucionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:24:47 Error: [MissingControllerException] Controller class FucionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FucionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Fucionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:24:49 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Funcionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:25:01 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Funcionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:27:14 Error: [MissingControllerException] Controller class VeículosController could not be found.
+Exception Attributes: array (
+  'class' => 'VeículosController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Ve%C3%ADculos
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:27:23 Error: [MissingControllerException] Controller class VeículosController could not be found.
+Exception Attributes: array (
+  'class' => 'VeículosController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Ve%C3%ADculos
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:27:26 Error: [MissingControllerException] Controller class VeículosController could not be found.
+Exception Attributes: array (
+  'class' => 'VeículosController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/Ve%C3%ADculos
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:40:07 Error: [MissingControllerException] Controller class ControlakmController could not be found.
+Exception Attributes: array (
+  'class' => 'ControlakmController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/controlakm/
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 23:42:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user' for key 'user_UNIQUE'
+Request URL: /ControlaKM/Funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Funcionario), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(51): Model->save(Array)
+#5 [internal function]: FuncionariosController->add()
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
