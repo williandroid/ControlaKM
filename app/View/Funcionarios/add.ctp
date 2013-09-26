@@ -1,20 +1,20 @@
 <div class="funcionarios form">
 <?php echo $this->Form->create('Funcionario'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Funcionario'); ?></legend>
+		<legend><?php echo __('Adicionar Funcionario'); ?></legend>
 	<?php
-		echo $this->Form->input('nomeFunc');
-		echo $this->Form->input('tipoFunc');
-		echo $this->Form->input('cnhNum');
-		echo $this->Form->input('cnhVenc');
-		echo $this->Form->input('cnhTipo');
-		echo $this->Form->input('cpf');
-		echo $this->Form->input('user');
-		echo $this->Form->input('senha');
+		echo $this->Form->input('nomeFunc', array('label' => 'Nome Funcionário'));
+		echo $this->Form->input('tipoFunc', array('label' => 'Tipo Funcionário'));
+		echo $this->Form->input('cnhNum', array('label' => 'Nº CNH'));
+		echo $this->Form->input('cnhVenc', array('label' => 'Vencimento CNH'));
+		echo $this->Form->input('cnhTipo', array('label' => 'Tipo CNH'));
+		echo $this->Form->input('cpf', array('label' => 'CPF'));
+		echo $this->Form->input('user', array('label' => 'Usuário'));
+		echo $this->Form->input('senha', array('label' => 'Senha', 'type'=>'password'));
 	?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
-</div>
+<?php echo $this->Form->end(__('Adicionar Funcionário')); ?>
+</div> 
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>

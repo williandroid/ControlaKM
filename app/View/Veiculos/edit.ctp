@@ -3,7 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Edit Veiculo'); ?></legend>
 	<?php
-		echo $this->Form->input('idVeiculo');
+		echo $this->Form->input('id');
 		echo $this->Form->input('modeloVeiculo');
 		echo $this->Form->input('placaVeiculo');
 		echo $this->Form->input('cpcdTanque');

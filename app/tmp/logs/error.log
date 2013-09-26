@@ -183,3 +183,782 @@ Stack Trace:
 #11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
 #12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2013-09-26 18:40:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/delete/11
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(93): Model->exists()
+#8 [internal function]: FuncionariosController->delete('11')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 18:41:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/delete/11
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(93): Model->exists()
+#8 [internal function]: FuncionariosController->delete('11')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 18:42:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 18:43:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 18:52:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:02:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Veiculo.id' in 'where clause'
+Request URL: /ControlaKM/veiculos/view/6
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Veiculo), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\VeiculosController.php(36): Model->exists('6')
+#8 [internal function]: VeiculosController->view('6')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VeiculosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:03:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Veiculo.id' in 'where clause'
+Request URL: /ControlaKM/veiculos/view/6
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Veiculo), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\VeiculosController.php(36): Model->exists('6')
+#8 [internal function]: VeiculosController->view('6')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VeiculosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:05:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Veiculo.id' in 'where clause'
+Request URL: /ControlaKM/veiculos/view/6
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Veiculo), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\VeiculosController.php(36): Model->exists('6')
+#8 [internal function]: VeiculosController->view('6')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VeiculosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:11:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Veiculo.id' in 'where clause'
+Request URL: /ControlaKM/veiculos/delete/6
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Veiculo), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\VeiculosController.php(93): Model->exists()
+#8 [internal function]: VeiculosController->delete('6')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VeiculosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(VeiculosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:21:42 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:22:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:23:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:23:48 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:24:22 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:24:46 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:24:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:26:16 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:27:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:27:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:28:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:30:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:30:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:30:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:36:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(93): Model->exists()
+#8 [internal function]: FuncionariosController->delete('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:38:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(93): Model->exists()
+#8 [internal function]: FuncionariosController->delete('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:39:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:40:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:41:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:48:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/11
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('11')
+#8 [internal function]: FuncionariosController->view('11')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:50:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/11
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('11')
+#8 [internal function]: FuncionariosController->view('11')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 19:50:52 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:51:55 Error: [NotFoundException] Funcionario inválido
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:52:07 Error: [NotFoundException] Funcionario inválido..
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:52:11 Error: [NotFoundException] Funcionario inválido.
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:53:08 Error: [NotFoundException] Funcionario inválido.
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 19:53:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(93): Model->exists()
+#8 [internal function]: FuncionariosController->delete('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:01:18 Error: [MissingActionException] Action FuncionariosController::enviar() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'enviar',
+)
+Request URL: /ControlaKM/Funcionarios/enviar/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-26 20:01:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:03:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:03:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:06:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:12:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:12:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:12:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:14:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/Funcionarios/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(68): Model->exists('1')
+#8 [internal function]: FuncionariosController->edit('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:16:00 Error: [MissingActionException] Action AppController::Controller() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Controller',
+)
+Request URL: /ControlaKM/app/Controller/FuncionariosController.php?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-26 20:16:17 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /ControlaKM/funcionario
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-26 20:16:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Funcionario.id' in 'where clause'
+Request URL: /ControlaKM/funcionarios/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Funcionario), Array)
+#5 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2722): Model->_readDataSource('count', Array)
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(2632): Model->find('count', Array)
+#7 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(36): Model->exists('1')
+#8 [internal function]: FuncionariosController->view('1')
+#9 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#10 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-26 20:33:39 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/1
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('1')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 20:36:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /ControlaKM/Funcionarios/edit/0
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Funcionario), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(72): Model->save(Array)
+#5 [internal function]: FuncionariosController->edit('0')
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-26 20:37:28 Error: [NotFoundException] Invalid funcionario
+Request URL: /ControlaKM/Funcionarios/delete/0
+Stack Trace:
+#0 [internal function]: FuncionariosController->delete('0')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 20:46:50 Error: Fatal Error (1): Call to a member function password() on a non-object in [C:\xampp\htdocs\ControlaKM\app\View\Funcionarios\add.ctp, line 13]
+2013-09-26 20:46:50 Error: [FatalErrorException] Call to a member function password() on a non-object
+Request URL: /ControlaKM/Funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-26 20:50:14 Error: Fatal Error (4): syntax error, unexpected 'a' (T_STRING) in [C:\xampp\htdocs\ControlaKM\app\View\Funcionarios\add.ctp, line 7]
+2013-09-26 20:50:14 Error: [FatalErrorException] syntax error, unexpected 'a' (T_STRING)
+Request URL: /ControlaKM/Funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-26 21:21:28 Error: [MissingActionException] Action FuncionariosController::enviar() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'enviar',
+)
+Request URL: /ControlaKM/funcionarios/enviar/4
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

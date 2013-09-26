@@ -1,9 +1,9 @@
 <div class="tanques view">
 <h2><?php echo __('Tanque'); ?></h2>
 	<dl>
-		<dt><?php echo __('IdTanque'); ?></dt>
+		<dt><?php echo __('id'); ?></dt>
 		<dd>
-			<?php echo h($tanque['Tanque']['idTanque']); ?>
+			<?php echo h($tanque['Tanque']['id']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('CpcdTanque'); ?></dt>

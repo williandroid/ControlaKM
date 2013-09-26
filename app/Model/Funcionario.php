@@ -12,7 +12,7 @@ class Funcionario extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'idFunc' => array(
+		'id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',

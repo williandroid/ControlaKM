@@ -2,7 +2,7 @@
 	<h2><?php echo __('Veiculos'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('idVeiculo'); ?></th>
+			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('modeloVeiculo'); ?></th>
 			<th><?php echo $this->Paginator->sort('placaVeiculo'); ?></th>
 			<th><?php echo $this->Paginator->sort('cpcdTanque'); ?></th>
@@ -12,7 +12,7 @@
 	</tr>
 	<?php foreach ($veiculos as $veiculo): ?>
 	<tr>
-		<td><?php echo h($veiculo['Veiculo']['idVeiculo']); ?>&nbsp;</td>
+		<td><?php echo h($veiculo['Veiculo']['id']); ?>&nbsp;</td>
 		<td><?php echo h($veiculo['Veiculo']['modeloVeiculo']); ?>&nbsp;</td>
 		<td><?php echo h($veiculo['Veiculo']['placaVeiculo']); ?>&nbsp;</td>
 		<td><?php echo h($veiculo['Veiculo']['cpcdTanque']); ?>&nbsp;</td>

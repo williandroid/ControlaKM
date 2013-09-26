@@ -2,7 +2,7 @@
 	<h2><?php echo __('Tanques'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('idTanque'); ?></th>
+			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('cpcdTanque'); ?></th>
 			<th><?php echo $this->Paginator->sort('localTanque'); ?></th>
 			<th><?php echo $this->Paginator->sort('totMomento'); ?></th>
@@ -11,7 +11,7 @@
 	</tr>
 	<?php foreach ($tanques as $tanque): ?>
 	<tr>
-		<td><?php echo h($tanque['Tanque']['idTanque']); ?>&nbsp;</td>
+		<td><?php echo h($tanque['Tanque']['id']); ?>&nbsp;</td>
 		<td><?php echo h($tanque['Tanque']['cpcdTanque']); ?>&nbsp;</td>
 		<td><?php echo h($tanque['Tanque']['localTanque']); ?>&nbsp;</td>
 		<td><?php echo h($tanque['Tanque']['totMomento']); ?>&nbsp;</td>

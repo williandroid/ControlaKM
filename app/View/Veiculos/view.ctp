@@ -1,9 +1,9 @@
 <div class="veiculos view">
 <h2><?php echo __('Veiculo'); ?></h2>
 	<dl>
-		<dt><?php echo __('IdVeiculo'); ?></dt>
+		<dt><?php echo __('id'); ?></dt>
 		<dd>
-			<?php echo h($veiculo['Veiculo']['idVeiculo']); ?>
+			<?php echo h($veiculo['Veiculo']['id']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('ModeloVeiculo'); ?></dt>
