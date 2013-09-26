@@ -1,5 +1,5 @@
 <div class="funcionarios view">
-<h2><?php echo __('Visualizar Funcionario'); ?></h2>
+<h2><?php echo __('Painel - Funcionario - Visualizar'); ?></h2>
 	<dl>
 		<dt><?php echo __('Id Funcionário:'); ?></dt>
 		<dd>

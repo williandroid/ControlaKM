@@ -95,9 +95,9 @@ class FuncionariosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Funcionario->delete()) {
-			$this->Session->setFlash(__('Funcionário deletado com sucesso!'));
+			$this->Session->setFlash(__('Funcionário removido com sucesso!'));
 		} else {
-			$this->Session->setFlash(__('O Funcionário não foi deletado corretamente. Tente novamente!'));
+			$this->Session->setFlash(__('O Funcionário não foi removido corretamente. Tente novamente!'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}}

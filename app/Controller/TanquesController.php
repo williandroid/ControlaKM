@@ -49,7 +49,7 @@ class TanquesController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Tanque->create();
 			if ($this->Tanque->save($this->request->data)) {
-				$this->Session->setFlash(__('Tanque adinionado com sucesso!'));
+				$this->Session->setFlash(__('Tanque adicionado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
@@ -73,7 +73,7 @@ class TanquesController extends AppController {
 				$this->Session->setFlash(__('Tanque editado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
+				$this->Session->setFlash(__('O Tanque não foi editado corretamente. Tente novamente!'));
 			}
 		} else {
 			$options = array('conditions' => array('Tanque.' . $this->Tanque->primaryKey => $id));
@@ -95,9 +95,9 @@ class TanquesController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Tanque->delete()) {
-			$this->Session->setFlash(__('Tanque deletado com sucesso!'));
+			$this->Session->setFlash(__('Tanque removido com sucesso!'));
 		} else {
-			$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
+			$this->Session->setFlash(__('O Tanque não foi removido corretamente. Tente novamente!'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}}

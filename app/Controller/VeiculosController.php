@@ -49,10 +49,10 @@ class VeiculosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Veiculo->create();
 			if ($this->Veiculo->save($this->request->data)) {
-				$this->Session->setFlash(__('The veiculo has been saved.'));
+				$this->Session->setFlash(__('Veículo adinionado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The veiculo could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O veículo não foi inserido corretamente. Tente novamente!'));
 			}
 		}
 	}
@@ -70,10 +70,10 @@ class VeiculosController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Veiculo->save($this->request->data)) {
-				$this->Session->setFlash(__('The veiculo has been saved.'));
+				$this->Session->setFlash(__('Veículo editado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The veiculo could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O veículo não foi inserido corretamente. Tente novamente!'));
 			}
 		} else {
 			$options = array('conditions' => array('Veiculo.' . $this->Veiculo->primaryKey => $id));
@@ -95,9 +95,9 @@ class VeiculosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Veiculo->delete()) {
-			$this->Session->setFlash(__('The veiculo has been deleted.'));
+			$this->Session->setFlash(__('Veículo removido com sucesso!'));
 		} else {
-			$this->Session->setFlash(__('The veiculo could not be deleted. Please, try again.'));
+			$this->Session->setFlash(__('O veículo não foi inserido corretamente. Tente novamente!'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}}
