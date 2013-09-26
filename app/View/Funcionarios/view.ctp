@@ -1,7 +1,7 @@
 <div class="funcionarios view">
-<h2><?php echo __('Funcionario'); ?></h2>
+<h2><?php echo __('Visualizar Funcionario'); ?></h2>
 	<dl>
-		<dt><?php echo __('Id Funcionário'); ?></dt>
+		<dt><?php echo __('Id Funcionário:'); ?></dt>
 		<dd>
 			<?php echo h($funcionario['Funcionario']['id']); ?>
 			&nbsp;

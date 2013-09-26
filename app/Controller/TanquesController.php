@@ -49,10 +49,10 @@ class TanquesController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Tanque->create();
 			if ($this->Tanque->save($this->request->data)) {
-				$this->Session->setFlash(__('The tanque has been saved.'));
+				$this->Session->setFlash(__('Tanque adinionado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The tanque could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
 			}
 		}
 	}
@@ -66,14 +66,14 @@ class TanquesController extends AppController {
  */
 	public function edit($id = null) {
 		if (!$this->Tanque->exists($id)) {
-			throw new NotFoundException(__('Invalid tanque'));
+			throw new NotFoundException(__('Tanque inválido!'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Tanque->save($this->request->data)) {
-				$this->Session->setFlash(__('The tanque has been saved.'));
+				$this->Session->setFlash(__('Tanque editado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The tanque could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
 			}
 		} else {
 			$options = array('conditions' => array('Tanque.' . $this->Tanque->primaryKey => $id));
@@ -91,13 +91,13 @@ class TanquesController extends AppController {
 	public function delete($id = null) {
 		$this->Tanque->id = $id;
 		if (!$this->Tanque->exists()) {
-			throw new NotFoundException(__('Invalid tanque'));
+			throw new NotFoundException(__('Tanque Inválido!'));
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Tanque->delete()) {
-			$this->Session->setFlash(__('The tanque has been deleted.'));
+			$this->Session->setFlash(__('Tanque deletado com sucesso!'));
 		} else {
-			$this->Session->setFlash(__('The tanque could not be deleted. Please, try again.'));
+			$this->Session->setFlash(__('O Tanque não foi inserido corretamente. Tente novamente!'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}}

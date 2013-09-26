@@ -34,7 +34,7 @@ class FuncionariosController extends AppController {
  */
 	public function view($id = null) {
 		if (!$this->Funcionario->exists($id)) {
-			throw new NotFoundException(__('Invalid funcionario'));
+			throw new NotFoundException(__('Funcionário Invalido!'));
 		}
 		$options = array('conditions' => array('Funcionario.' . $this->Funcionario->primaryKey => $id));
 		$this->set('funcionario', $this->Funcionario->find('first', $options));
@@ -49,10 +49,10 @@ class FuncionariosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Funcionario->create();
 			if ($this->Funcionario->save($this->request->data)) {
-				$this->Session->setFlash(__('The funcionario has been saved.'));
+				$this->Session->setFlash(__('Funcionário adicionado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The funcionario could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O Funcionário não foi inserido corretamente. Tente novamente!'));
 			}
 		}
 	}
@@ -66,14 +66,14 @@ class FuncionariosController extends AppController {
  */
 	public function edit($id = null) {
 		if (!$this->Funcionario->exists($id)) {
-			throw new NotFoundException(__('Invalid funcionario'));
+			throw new NotFoundException(__('Funcionário Invalido!'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Funcionario->save($this->request->data)) {
-				$this->Session->setFlash(__('The funcionario has been saved.'));
+				$this->Session->setFlash(__('Funcionário editado com sucesso!'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The funcionario could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('O Funcionário não foi editado corretamente. Tente novamente!'));
 			}
 		} else {
 			$options = array('conditions' => array('Funcionario.' . $this->Funcionario->primaryKey => $id));
@@ -91,13 +91,13 @@ class FuncionariosController extends AppController {
 	public function delete($id = null) {
 		$this->Funcionario->id = $id;
 		if (!$this->Funcionario->exists()) {
-			throw new NotFoundException(__('Invalid funcionario'));
+			throw new NotFoundException(__('Funcionário Invalido!'));
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Funcionario->delete()) {
-			$this->Session->setFlash(__('The funcionario has been deleted.'));
+			$this->Session->setFlash(__('Funcionário deletado com sucesso!'));
 		} else {
-			$this->Session->setFlash(__('The funcionario could not be deleted. Please, try again.'));
+			$this->Session->setFlash(__('O Funcionário não foi deletado corretamente. Tente novamente!'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}}

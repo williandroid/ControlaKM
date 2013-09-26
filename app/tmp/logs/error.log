@@ -962,3 +962,101 @@ Stack Trace:
 #1 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-09-26 21:51:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'senha_UNIQUE'
+Request URL: /ControlaKM/Funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Funcionario), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(51): Model->save(Array)
+#5 [internal function]: FuncionariosController->add()
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-26 21:52:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'julia' for key 'user_UNIQUE'
+Request URL: /ControlaKM/Funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Funcionario), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\FuncionariosController.php(51): Model->save(Array)
+#5 [internal function]: FuncionariosController->add()
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(FuncionariosController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-26 22:12:43 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\ControlaKM\app\View\Tanques\edit.ctp, line 8]
+2013-09-26 22:12:43 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /ControlaKM/Tanques/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-26 22:14:24 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /ControlaKM/Tanques/edit/0
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Tanque), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\TanquesController.php(72): Model->save(Array)
+#5 [internal function]: TanquesController->edit('0')
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TanquesController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-26 22:15:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /ControlaKM/Tanques/edit/0
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Tanque), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\TanquesController.php(72): Model->save(Array)
+#5 [internal function]: TanquesController->edit('0')
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TanquesController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-26 22:16:03 Error: [NotFoundException] Invalid tanque
+Request URL: /ControlaKM/Tanques/delete/0
+Stack Trace:
+#0 [internal function]: TanquesController->delete('0')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TanquesController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 22:16:21 Error: [NotFoundException] Invalid tanque
+Request URL: /ControlaKM/Tanques/delete/0
+Stack Trace:
+#0 [internal function]: TanquesController->delete('0')
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TanquesController), Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-26 22:18:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /ControlaKM/Tanques/add
+Stack Trace:
+#0 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `db...', Array)
+#2 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `db...')
+#3 C:\xampp\htdocs\ControlaKM\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Tanque), Array, Array)
+#4 C:\xampp\htdocs\ControlaKM\app\Controller\TanquesController.php(51): Model->save(Array)
+#5 [internal function]: TanquesController->add()
+#6 C:\xampp\htdocs\ControlaKM\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TanquesController), Array)
+#7 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\ControlaKM\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TanquesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\ControlaKM\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
